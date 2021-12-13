@@ -1,0 +1,94 @@
+.searchSection {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  font-size: 15px;
+}
+.searchButton {
+  color: white;
+  background-color: #146ec5;
+  border-radius: 25px;
+  border: 1px solid #146ec5;
+  font-size: 15px;
+  padding: 3px 10px;
+  margin: 0 auto;
+  transition: all 200ms ease;
+}
+.searchButton:hover {
+  cursor: pointer;
+  color: #146ec5;
+  background: white;
+}
+.currentButton {
+  color: white;
+  background-color: rgb(12, 161, 12);
+  border-radius: 25px;
+  border: 1px solid rgb(12, 161, 12);
+  font-size: 15px;
+  padding: 3px 10px;
+  margin: 0 auto;
+  transition: all 200ms ease;
+}
+.currentButton:hover {
+  cursor: pointer;
+  color: rgb(12, 161, 12);
+  background: white;
+}
+.forecastContainer {
+  max-width: 500px;
+  margin: 50px auto;
+  border: 3px solid #ced1d7;
+  border-radius: 42%;
+  padding: 0 auto;
+}
+h1,
+h2,
+.row,
+.weeklyForecast,
+.weekday,
+.weeklyTemp {
+  font-family: "Literata", serif;
+  text-align: center;
+}
+h1 {
+  padding: 50px 0 20px 0;
+  font-size: 60px;
+  font-weight: 700;
+  color: #146ec5;
+}
+h2 {
+  font-size: 18px;
+  color: #42a5f5;
+  padding: 10px 0 0 0;
+}
+.currentDateTime {
+  color: #e43ea4;
+  padding: 0px;
+  font-size: 15px;
+}
+.currentTemp {
+  font-size: 60px;
+  color: #4db3a9;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+.currentTempDetails {
+  font-size: 15px;
+  color: #93979e;
+  margin: 0;
+  padding: 15px;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.weekday {
+  color: #f07d54;
+  padding: 10px;
+}
+.weeklyTemp {
+  color: #5a6aca;
+  padding: 10px;
+}
