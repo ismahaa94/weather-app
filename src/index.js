@@ -21,7 +21,7 @@ if (minutes < 10) {
 }
 h2.innerHTML = `${day} ${hours}:${minutes}`;
 
-//Feature 1 - Update city name and current temp of inputted city
+//Update city name and current temp of inputted city
 function showWeather(response) {
   document.querySelector("h1").innerHTML = response.data.name;
   document.querySelector("#city-temp").innerHTML = `${Math.round(
@@ -75,3 +75,14 @@ function getCurrentLocation(event) {
 
 let button = document.querySelector(".currentButton");
 button.addEventListener("click", getCurrentLocation);
+
+//Farhenheit conversion
+function showFarhenheitTemp(event) {
+  event.preventDefault();
+  let currentTemp = document.querySelector("#city-temp");
+  let farhenheitTemp = 21 * 1.8 + 32;
+  currentTemp.innerHTML = Math.round(farhenheitTemp);
+}
+
+let farhenheitSelector = document.querySelector("#farhenheit-conversion");
+farhenheitSelector.addEventListener("click", showFarhenheitTemp);
