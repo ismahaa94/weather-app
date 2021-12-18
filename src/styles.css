@@ -38,9 +38,15 @@
 .forecastContainer {
   max-width: 500px;
   margin: 50px auto;
-  border: 3px solid #ced1d7;
+  border: 3px solid rgba(20, 110, 197, 0.1881127450980392) 80%;
   border-radius: 42%;
   padding: 0 auto;
+  background: rgb(254, 255, 254);
+  background: radial-gradient(
+    circle,
+    rgba(254, 255, 254, 1) 29%,
+    rgba(20, 110, 197, 0.1881127450980392) 100%
+  );
 }
 h1,
 h2,
