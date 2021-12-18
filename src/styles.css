@@ -68,6 +68,11 @@ h2 {
   color: #42a5f5;
   padding: 10px 0 0 0;
 }
+.lastUpdate {
+  color: #e43ea4;
+  padding: 0px;
+  font-size: 15px;
+}
 .currentDateTime {
   color: #e43ea4;
   padding: 0px;
