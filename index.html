@@ -50,13 +50,13 @@
             <input type="submit" class="fahrenheit" value="°F" />
           </span>
           <div class="col currentTempDetails">
-            Condition: <span class="condition">Sunny</span>
+            Condition: <span class="condition"><strong>Sunny</strong></span>
           </div>
           <div class="col currentTempDetails">
-            Humidity: <span class="humidity">67%</span>
+            Humidity: <span class="humidity"><strong>67%</strong></span>
           </div>
           <div class="col currentTempDetails">
-            Speed: <span class="windSpeed">12mph</span>
+            Speed: <span class="windSpeed"><strong>12mph</strong></span>
           </div>
         </div>
       </div>
@@ -66,31 +66,52 @@
         <tbody>
           <tr>
             <td class="weekday">Monday</td>
-            <td class="weeklyTemp"><strong>23°</strong> / 21°</td>
+            <td class="weeklyTemp" id="monday-forecast-min">
+              <strong>23°</strong>
+            </td>
+            <td class="weeklyTemp" id="monday-forecast-max">/ 21°</td>
           </tr>
           <tr>
             <td class="weekday">Tuesday</td>
-            <td class="weeklyTemp"><strong>25°</strong> / 21°</td>
+            <td class="weeklyTemp" id="tuesday-forecast-min">
+              <strong>25°</strong>
+            </td>
+            <td class="weeklyTemp" id="tuesday-forecast-max">/ 21°</td>
           </tr>
           <tr>
             <td class="weekday">Wednesday</td>
-            <td class="weeklyTemp"><strong>19°</strong> / 17°</td>
+            <td class="weeklyTemp" id="wednesday-forecast-min">
+              <strong>19°</strong>
+            </td>
+            <td class="weeklyTemp" id="wednesday-forecast-max">/ 17°</td>
           </tr>
           <tr>
             <td class="weekday">Thursday</td>
-            <td class="weeklyTemp"><strong>22°</strong> / 20°</td>
+            <td class="weeklyTemp" id="thursday-forecast-min">
+              <strong>22°</strong>
+            </td>
+            <td class="weeklyTemp" id="thursday-forecast-max">/ 20°</td>
           </tr>
           <tr>
             <td class="weekday">Friday</td>
-            <td class="weeklyTemp"><strong>15°</strong> / 15°</td>
+            <td class="weeklyTemp" id="friday-forecast-min">
+              <strong>15°</strong>
+            </td>
+            <td class="weeklyTemp" id="friday-forecast-max">/ 15°</td>
           </tr>
           <tr>
             <td class="weekday">Saturday</td>
-            <td class="weeklyTemp"><strong>23°</strong> / 19°</td>
+            <td class="weeklyTemp" id="saturday-forecast-min">
+              <strong>23°</strong>
+            </td>
+            <td class="weeklyTemp" id="saturday-forecast-max">/ 19°</td>
           </tr>
           <tr>
             <td class="weekday">Sunday</td>
-            <td class="weeklyTemp"><strong>14°</strong> / 13°</td>
+            <td class="weeklyTemp" id="sunday-forecast-min">
+              <strong>14°</strong>
+            </td>
+            <td class="weeklyTemp" id="sunday-forecast-max">/ 13°</td>
           </tr>
         </tbody>
       </table>
