@@ -79,16 +79,16 @@ h2 {
   font-size: 14px;
 }
 .float-container {
-  margin: 5px 0;
+  margin: 0;
 }
-.weatherIcon img,
+.floatIcon,
 .currentTemp {
   float: center;
   margin: 0 25px;
 }
-.weatherIcon img {
-  width: 60px;
-  vertical-align: -5px;
+img {
+  width: 80px;
+  vertical-align: -15px;
 }
 .currentTemp {
   font-size: 60px;
