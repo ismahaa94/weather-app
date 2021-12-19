@@ -78,6 +78,18 @@ h2 {
   padding: 0px;
   font-size: 14px;
 }
+.float-container {
+  margin: 5px 0;
+}
+.weatherIcon img,
+.currentTemp {
+  float: center;
+  margin: 0 25px;
+}
+.weatherIcon img {
+  width: 60px;
+  vertical-align: -5px;
+}
 .currentTemp {
   font-size: 60px;
   color: #4db3a9;
@@ -90,7 +102,8 @@ h2 {
   color: #146ec5;
   background-color: transparent;
   border: 1px solid rgb(172, 172, 172);
-  padding: 0px 10px;
+  padding: 0 10px;
+  margin: 0 5px;
   font-size: 15px;
   border-radius: 20px;
   transition: all 200ms ease;
