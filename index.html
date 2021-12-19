@@ -44,7 +44,16 @@
       <hr style="width: 55%; margin: auto" />
       <div class="container">
         <div class="row">
-          <div class="currentTemp" id="city-temp">21°</div>
+          <div class="float-container">
+            <span class="weatherIcon" id="weather-icon">
+              <img
+                src="src/img/sun-icon.png"
+                alt="Sunny Skies"
+                class="weather-icon"
+              />
+            </span>
+            <span class="currentTemp" id="city-temp">21°</span>
+          </div>
           <span class="tempUnits">
             <input type="submit" class="celsius" value="°C" />
             <input type="submit" class="fahrenheit" value="°F" />
