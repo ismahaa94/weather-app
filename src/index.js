@@ -37,7 +37,13 @@ function showWeather(response) {
   let windSpeed = response.data.wind.speed;
   let windSpeedDisplay = document.querySelector(".windSpeed");
   windSpeedDisplay.innerHTML = `  ${windSpeed} mph`;
+  let iconDisplay = document.querySelector("#weather-icon");
   celsiusTemp = response.data.main.temp;
+  iconDisplay.setAttribute(
+    "src",
+    `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconDisplay.setAttribute("alt", response.data.weather[0].main);
 }
 
 function searchCity(city) {
@@ -101,3 +107,5 @@ fahrenheitLink.addEventListener("click", showFahrenheitTemp);
 
 let celsiusLink = document.querySelector(".celsius");
 celsiusLink.addEventListener("click", showCelsiusTemp);
+
+searchCity("Hong Kong");
