@@ -85,10 +85,21 @@ h2 {
   margin: 0;
   font-weight: 500;
 }
-.tempUnits {
-  font-size: 20px;
-  position: relative;
-  top: -30px;
+.celsius,
+.fahrenheit {
+  color: #146ec5;
+  background-color: transparent;
+  border: 1px solid rgb(172, 172, 172);
+  padding: 0px 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  transition: all 200ms ease;
+}
+.celsius:hover,
+.fahrenheit:hover {
+  cursor: pointer;
+  background-color: #146ec5;
+  color: #ffffff;
 }
 .currentTempDetails {
   font-size: 15px;
